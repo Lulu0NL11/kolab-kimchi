@@ -1,0 +1,183 @@
+body {
+    margin: 0px;
+  }
+  
+  header {
+    display: flex;
+    top: 0;
+    width: 100%;
+    background-color: rgb(48, 99, 59);
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    color: #ffffffda;
+    padding: 10px;
+  }
+  
+  nav a {
+    padding: 10px 25px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+    display: inline-block;
+  }
+  
+  section.home {
+    background: url("wallpaper\ 1.jpg") no-repeat fixed center ;
+    background-size: cover;
+    height: 700px;
+  }
+  
+  section.home div {
+    text-align: center;
+    color: white;
+    margin: auto;
+    width: 70%;
+    padding: 80px 20px 20px;
+  }
+  
+  section.home .welcome {
+    font-size: 50px;
+  }
+  
+  section.home a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+  }
+  
+  section.about {
+    background-color: rgb(137, 36, 36);
+    background-size: cover;
+    height: auto;
+    padding: 50px 0;
+  }
+  
+  section.about div {
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+  }
+  
+  section.about img {
+    height: 100px;
+  }
+  
+  section.product .card button {
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px;
+  }
+
+  section#product-1,
+  section#product-2 {
+    background: url("wallpaper\ 3.jpg") no-repeat fixed center ;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    margin: 0;
+  }
+  
+  section.contact {
+    background-image: url("wallpaper\ 1.jpg");
+    background-size: cover;
+    height: 700px;
+  
+  }
+
+  section.contact .card{
+    margin: auto;
+    color: rgb(109, 34, 34);
+    text-align: center;
+    padding-top: 150px;
+    width: 400px;
+    height: 500px;
+    border-radius: 0%;
+}
+section.contact .card img{
+    width: 200px;
+}
+  
+  .product {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    width: 250px;
+    height: auto;
+    box-shadow: 0 0 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background: #c5b8b8da;
+    transition: transform 0.2s ease-in-out;
+        cursor: pointer;
+  }
+
+  .card:hover{
+    transform: scale(1.05);
+
+  }
+  
+  .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+  button {
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    background-color: #d12e28da;
+    color: white;
+  }
+
+  footer {
+    background-color: #992222;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+  
+  }
+
+  footer .medsos {
+    text-align: center;
+    padding-top: 10px;
+    z-index: 1000;
+  }
+
+  footer .medsos a{
+    color: beige;
+    font-size: 30px;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: transform 0.3s, color 0.3s;
+    padding: 5px 20px;
+    z-index: 1000;
+  }
+  footer .medsos a:hover{
+    color: aliceblue;
+    transform: scale(1.2);
+  }
+  .card h2 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  
+  .card h3 {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #444;
+  }
